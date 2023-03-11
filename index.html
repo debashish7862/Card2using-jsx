@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+</head>
+<body>
+
+    <div id="root">
+
+    </div>
+    <style>
+        body{
+            background-color: aquamarine;
+            
+
+        font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+background-color: #D9AFD9;
+background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+height: 100vh;
+        }
+    </style>
+
+    <script type="text/babel">
+
+        // style
+
+let outerBox={ 
+
+
+display:"flex",
+justifyContent:"center",
+alignItems:"center",
+width:"99vw",
+height:"99vh",
+flexDirection:"column"
+
+
+}
+let innerBox={
+    width:"500px",
+height:"700px",
+
+
+textAlign:"center",
+
+backgroundColor:"#ffffff",
+        borderRadius: "10px",
+        boxshadow:"rgba(0, 0, 0, 0.35) 0px 5px 15px"
+
+
+}
+
+let imgStyle={
+    borderRadius:"10px 10px 0px 0px",
+        height:"500px",
+        width:"500px",
+        backgroundImage:"url(img.jpeg)"
+        
+
+}
+let h3Style={
+    fontSize:"20px",
+    marginTop:"-20px"
+}
+let pstyle={
+    color:"rgb(157,157,157)"
+
+}
+let number={
+    display:"flex",
+    gap:"100px",
+    fontSize:"20px",
+    // backgroundColor:"rgb(250,250,250)",
+    justifyContent:"center"
+}
+
+         
+let following={
+    display:"flex",
+   
+    justifyContent:"center",
+    gap:"65px",
+    color:"rgb(157,157,157)",
+    marginTop:"-30px"
+}
+let icon1={
+  backgroundColor:"rgb(227,67,111)",
+    width:"53px",
+    height:"30px",
+    borderRadius:"5px",
+    left: "50px",
+position: "relative",
+top: "-470px",
+color:"white",
+fontSize:"30px"
+   
+}
+
+
+let icon2={
+    width:"53px",
+    height:"30px",
+    borderRadius:"5px",
+    left: "431px",
+position: "relative",
+top: "-506px",
+color:"white",
+fontSize:"30px"
+
+}
+
+
+
+
+
+        // code
+
+let cardTwo=
+
+   <div style={outerBox}>
+    <div style={innerBox}>
+        
+        <div >
+           
+
+            <img style={imgStyle}/>
+
+
+            <div style={icon1}>+</div>
+
+            <div style={icon2}><span>&#8942;</span></div>
+
+           
+
+            
+            </div>
+
+           
+            
+    
+                
+             
+        
+               <h3 style={h3Style}>Debashish Sahu</h3>
+               <p style={pstyle}>Learn Full Stack Web Developement at Geekster</p>
+               <div style={number}>
+                <p>26</p>
+                <p>94</p>
+                <p>139</p>
+                </div>
+
+
+                <div style={following}>
+                    <p>Shoot</p>
+                    <p>Following</p>
+                    <p>Followers</p>
+                    
+                    </div>
+        </div>
+        
+
+       
+
+        
+
+
+    </div>
+
+   
+
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+            ReactDOM.render(cardTwo,document.getElementById("root"))
+    
+    </script>
+    
+</body>
+</html>
